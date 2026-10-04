@@ -12,35 +12,150 @@
 
 const PRODUCTS = [
   {
-    id: "capcut-pro-1-month",
-    name: "CapCut Pro — 1 Month",
-    price: 25000,
+    id: "chatgpt-1-month-warranty",
+    name: "ChatGPT — 1 Month",
+    price: 75000,
     stock: "available",
-    description: "Professional video editing tools for creators and editors.",
-    symbol: "C",
+    description: "AI-powered productivity, research, writing and creative assistance.",
+    symbol: "AI",
     features: [
-      "Premium editing tools",
-      "Advanced effects",
-      "Premium templates",
-      "Professional creative features",
+      "1 Month Access",
+      "25 Days Warranty",
+      "Premium AI features",
+      "Advanced productivity tools",
       "After-sales support"
     ],
-    orderUrl: "https://example.com/order"
+    orderUrl: "YOUR_ORDER_LINK"
   },
 
-  // Add future products like this:
-  /*
   {
-    id: "product-two",
-    name: "Your Product",
-    price: 30000,
-    stock: "limited",
-    description: "Short product description.",
+    id: "chatgpt-1-month-no-warranty",
+    name: "ChatGPT — 1 Month",
+    price: 55000,
+    stock: "available",
+    description: "AI-powered productivity, research, writing and creative assistance.",
+    symbol: "AI",
+    features: [
+      "1 Month Access",
+      "No Warranty",
+      "Premium AI features",
+      "Advanced productivity tools"
+    ],
+    orderUrl: "YOUR_ORDER_LINK"
+  },
+
+  {
+    id: "spotify-3-months",
+    name: "Spotify — 3 Months",
+    price: 45000,
+    stock: "available",
+    description: "Premium music streaming with an enhanced listening experience.",
+    symbol: "S",
+    features: [
+      "3 Months Access",
+      "Premium music experience",
+      "Ad-free listening",
+      "Enhanced listening features"
+    ],
+    orderUrl: "YOUR_ORDER_LINK"
+  },
+
+  {
+    id: "spotify-6-months",
+    name: "Spotify — 6 Months",
+    price: 90000,
+    stock: "available",
+    description: "Premium music streaming with an enhanced listening experience.",
+    symbol: "S",
+    features: [
+      "6 Months Access",
+      "Premium music experience",
+      "Ad-free listening",
+      "Enhanced listening features"
+    ],
+    orderUrl: "YOUR_ORDER_LINK"
+  },
+
+  {
+    id: "prime-video-1-month",
+    name: "Prime Video — 1 Month",
+    price: 15000,
+    stock: "available",
+    description: "Enjoy movies, series and premium entertainment content.",
     symbol: "P",
-    features: ["Feature one", "Feature two"],
-    orderUrl: "https://example.com/order"
+    features: [
+      "1 Month Access",
+      "30 Days Warranty",
+      "Premium entertainment",
+      "Movies and series"
+    ],
+    orderUrl: "YOUR_ORDER_LINK"
+  },
+
+  {
+    id: "gemini-pro-18-months",
+    name: "Gemini Pro — 18 Months",
+    price: 50000,
+    stock: "available",
+    description: "Advanced AI assistance for research, productivity and creative work.",
+    symbol: "G",
+    features: [
+      "18 Months Access",
+      "No Warranty",
+      "Advanced AI features",
+      "Research and productivity tools"
+    ],
+    orderUrl: "YOUR_ORDER_LINK"
+  },
+
+  {
+    id: "alight-motion-6-months",
+    name: "Alight Motion — 6 Months",
+    price: 15000,
+    stock: "available",
+    description: "Professional motion graphics, effects and mobile video editing.",
+    symbol: "A",
+    features: [
+      "6 Months Access",
+      "No Warranty",
+      "Premium editing features",
+      "Motion graphics tools",
+      "Advanced effects"
+    ],
+    orderUrl: "YOUR_ORDER_LINK"
+  },
+
+  {
+    id: "hma-vpn-1-month",
+    name: "HMA VPN — 1 Month",
+    price: 13000,
+    stock: "available",
+    description: "VPN service for private and secure internet access.",
+    symbol: "H",
+    features: [
+      "1 Month Access",
+      "Secure internet access",
+      "Privacy features",
+      "VPN protection"
+    ],
+    orderUrl: "YOUR_ORDER_LINK"
+  },
+
+  {
+    id: "nord-vpn-3-months",
+    name: "Nord VPN — 3 Months",
+    price: 45000,
+    stock: "available",
+    description: "Fast and secure VPN access for privacy and everyday browsing.",
+    symbol: "N",
+    features: [
+      "3 Months Access",
+      "Secure browsing",
+      "Privacy features",
+      "VPN protection"
+    ],
+    orderUrl: "YOUR_ORDER_LINK"
   }
-  */
 ];
 
 const money = (amount) => new Intl.NumberFormat("en-US").format(amount);
