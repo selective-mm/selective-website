@@ -12,12 +12,27 @@
 
 const PRODUCTS = [
   {
+    id: "CapCut-1-month-Full-warranty",
+    name: "CapCut — 1 Month",
+    price: 20000,
+    stock: "available",
+    description: "Professional video editing tools for creators and editors.",
+    icon: "https://cdn.simpleicons.org/capcut",
+    features: [
+      "1 Month Access",
+      "Premium editing tools",
+      "Premium templates",
+      "After-sales support"
+    ],
+    orderUrl: "YOUR_ORDER_LINK"
+  },
+  {
     id: "chatgpt-1-month-warranty",
     name: "ChatGPT — 1 Month",
     price: 75000,
     stock: "available",
     description: "AI-powered productivity, research, writing and creative assistance.",
-    symbol: "AI",
+    icon: "https://cdn.simpleicons.org/openai",
     features: [
       "1 Month Access",
       "25 Days Warranty",
@@ -34,7 +49,7 @@ const PRODUCTS = [
     price: 55000,
     stock: "available",
     description: "AI-powered productivity, research, writing and creative assistance.",
-    symbol: "AI",
+    icon: "https://cdn.simpleicons.org/openai",
     features: [
       "1 Month Access",
       "No Warranty",
@@ -50,7 +65,7 @@ const PRODUCTS = [
     price: 45000,
     stock: "available",
     description: "Premium music streaming with an enhanced listening experience.",
-    symbol: "S",
+    icon: "https://cdn.simpleicons.org/spotify",
     features: [
       "3 Months Access",
       "Premium music experience",
@@ -66,7 +81,7 @@ const PRODUCTS = [
     price: 90000,
     stock: "available",
     description: "Premium music streaming with an enhanced listening experience.",
-    symbol: "S",
+    icon: "https://cdn.simpleicons.org/spotify",
     features: [
       "6 Months Access",
       "Premium music experience",
@@ -82,7 +97,7 @@ const PRODUCTS = [
     price: 15000,
     stock: "available",
     description: "Enjoy movies, series and premium entertainment content.",
-    symbol: "P",
+    icon: "https://cdn.simpleicons.org/primevideo",
     features: [
       "1 Month Access",
       "30 Days Warranty",
@@ -98,7 +113,7 @@ const PRODUCTS = [
     price: 50000,
     stock: "available",
     description: "Advanced AI assistance for research, productivity and creative work.",
-    symbol: "G",
+    icon: "https://cdn.simpleicons.org/googlegemini",
     features: [
       "18 Months Access",
       "No Warranty",
@@ -114,7 +129,7 @@ const PRODUCTS = [
     price: 15000,
     stock: "available",
     description: "Professional motion graphics, effects and mobile video editing.",
-    symbol: "A",
+    icon: "https://cdn.simpleicons.org/alightmotion",
     features: [
       "6 Months Access",
       "No Warranty",
@@ -131,7 +146,7 @@ const PRODUCTS = [
     price: 13000,
     stock: "available",
     description: "VPN service for private and secure internet access.",
-    symbol: "H",
+    icon: "https://cdn.simpleicons.org/hidemyass",
     features: [
       "1 Month Access",
       "Secure internet access",
@@ -147,7 +162,7 @@ const PRODUCTS = [
     price: 45000,
     stock: "available",
     description: "Fast and secure VPN access for privacy and everyday browsing.",
-    symbol: "N",
+    icon: "https://cdn.simpleicons.org/nordvpn",
     features: [
       "3 Months Access",
       "Secure browsing",
